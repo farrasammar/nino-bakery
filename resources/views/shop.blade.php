@@ -27,6 +27,7 @@
 </nav>
 <div class="container mt-4">
     <h2 class="mb-3">Shopping Items</h2>
+    
     @if(session('success'))
         <div class="alert alert-success">
           {{ session('success') }}

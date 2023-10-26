@@ -12,10 +12,30 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//  List Product
 Route::get('/signaturecake', function () {
     return view('cake.signaturecake');
 });
 
+Route::get('/birthdaycake', function () {
+    return view('cake.birthdaycake');
+});
+
+Route::get('/cupcakes', function () {
+    return view('cake.cupcakes');
+});
+
+Route::get('/chocolates', function () {
+    return view('cake.chocolates');
+});
+
+Route::get('/bread', function () {
+    return view('cake.bread');
+});
+
+Route::get('/cookies', function () {
+    return view('cake.cookies');
+});
 
 Auth::routes();
    

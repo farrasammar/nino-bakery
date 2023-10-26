@@ -26,7 +26,7 @@
                     </td>
                     <td data-th="Price">${{ $details['price'] }}</td>
                     
-                    <td data-th="Subtotal" class="text-center"></td>
+                    <td data-th="Subtotal" class="text-center">${{ $details['price'] }}</td>
                     <td class="actions">
                         <a class="btn btn-outline-danger btn-sm delete-product"><i class="fa fa-trash-o"></i></a>
                     </td>
@@ -37,7 +37,7 @@
     <tfoot>
         <tr>
             <td colspan="5" class="text-right">
-                <a href="{{ url('/home') }}" class="btn btn-primary"><i class="fa fa-angle-left"></i> Continue Shopping</a>
+                <a href="{{ url('/shopping') }}" class="btn btn-primary"><i class="fa fa-angle-left"></i> Continue Shopping</a>
                 <button class="btn btn-danger">Checkout</button>
             </td>
         </tr>
